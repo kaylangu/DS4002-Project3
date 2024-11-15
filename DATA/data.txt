@@ -1,0 +1,8 @@
+The images that were used to style other images was taken from this link (https://datasets.activeloop.ai/docs/ml/datasets/wiki-art-dataset/). 
+
+There are 81,433 sample images in the WikiArt dataset, with about 52,000 prepared specifically for training and testing learning models. 
+
+This dataset was acquired by running the following two lines in subsequent scripts:
+
+import deeplake
+ds = deeplake.load('hub://activeloop/wiki-art')
